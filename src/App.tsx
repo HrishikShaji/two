@@ -5,6 +5,7 @@ import StackedCards from "./components/StackedCards";
 import StackedTitle from "./components/StackedTitle";
 import Standards from "./components/Standards";
 import ProductsAndServices from "./components/ProductsAndServices";
+import { VerticalSlider } from "./components/VerticalSlider";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <StackedCards />
       <Standards />
       <ProductsAndServices />
+      <VerticalSlider />
       <div className="h-screen bg-gray-500 w-full" />
 
     </div>
