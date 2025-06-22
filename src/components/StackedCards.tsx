@@ -41,7 +41,6 @@ export default function StackedCards() {
         trigger: containerRef.current,
         pin: card,
         pinSpacing: false,
-        markers: true,
         start: `${i * 200}px 100px`,
         endTrigger: endRef.current,
         end: "top 80%",

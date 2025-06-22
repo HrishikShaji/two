@@ -1,10 +1,10 @@
-import { useEffect, useRef } from "react";
 import "./App.css";
-import gsap from "gsap";
 import Hero from "./components/Hero";
 import ExpertSection from "./components/Expert";
 import StackedCards from "./components/StackedCards";
 import StackedTitle from "./components/StackedTitle";
+import Standards from "./components/Standards";
+import ProductsAndServices from "./components/ProductsAndServices";
 
 function App() {
   return (
@@ -13,6 +13,8 @@ function App() {
       <ExpertSection />
       <StackedTitle />
       <StackedCards />
+      <Standards />
+      <ProductsAndServices />
       <div className="h-screen bg-gray-500 w-full" />
 
     </div>
